@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Tunderstruck</title>
+    <script src="betting_functions.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-CfCAYEgrdtRrpvjGKxoaRy5ge1ggMbxNSpEkY+XqdfdRTUkRrYZVB2z99E7BsEDZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Thunderstruck</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+    </div>
+
+
+</nav>
+
+<div class="container, row" style="margin: 20px; ">
+
+<div class="col-md-1" style="background-color: bisque;"><br><br><br><br><br><br><br>
+
+    <div class="btn-group-vertical" data-toggle="buttons" style="margin-bottom: 20px;">
+
+        <button type="button" class="btn btn-primary" onclick="whenclick()" id="Calculate">Calculate</button>
+
+    </div>
+
+</div>
+
+    <div class="col-md-3" id="putNumHere" style="background-color: bisque; padding: 20px; word-wrap: break-word;">
+
+        <h4>Input Prices:</h4>
+       1x2: <input id="home" type="text" style="margin: 2.5px; width: 50px">
+        <input id="draw" type="text" style="margin: 2.5px; width: 50px">
+        <input id="away" type="text" style="margin: 2.5px; width: 50px">
+        <input id="margin3way"disabled type="text" style="margin: 2.5px; width: 60px"> <br><br>
+        UO2.5: <input id="under2.5" type="text" style="margin: 2.5px; width: 50px">
+        <input id="over2.5" type="text" style="margin: 2.5px; width: 50px">
+        <input id="margin2way" disabled type="text" style="margin: 2.5px; width: 60px"> <br>
+
+    </div>
+
+    <div class="col-md-3" id="putNumHere2" style="background-color: bisque; padding: 20px; word-wrap: break-word;">
+
+        <h4>True Prices:</h4>
+        1x2: <input disabled id="hometo100" type="text" style="margin: 2.5px; width: 50px">
+        <input disabled id="drawto100" type="text" style="margin: 2.5px; width: 50px">
+        <input disabled id="awayto100" type="text" style="margin: 2.5px; width: 50px"> <br> <br>
+        UO2.5 :<input disabled id="underto100" type="text" style="margin: 2.5px; width: 50px">
+        <input disabled id="overto100" type="text" style="margin: 2.5px; width: 50px">
+
+    </div>
+
+    <div class="col-md-3" id="putNumHere3" style="background-color: bisque; padding: 20px; word-wrap: break-word;">
+
+        <h4>Expectancy / Supremacy:</h4>
+        Home Exp: <input disabled id="homeexp" type="text" style="margin: 2.5px; width: 50px"><br>
+        Away Exp :  <input disabled id="awayexp" type="text" style="margin: 2.5px; width: 50px"><br>
+        Total Goals:  <input disabled id="totgoals" type="text" style="margin: 2.5px; width: 50px"><br>
+        Supremacy: <input disabled id="supremacy" type="text" style="margin: 2.5px; width: 50px"><br>
+
+
+    </div>
+
+</div>
+
+<div class="col-md-10" id="putNumHere4" style="background-color: bisque; margin: 20px; padding: 20px; word-wrap: break-word;">
+
+    <h4>Popular Markets</h4>
+
+
+
+</div>
+
+</body>
+
+</html>

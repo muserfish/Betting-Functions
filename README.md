@@ -1,5 +1,6 @@
 # Betting-Functions
-Some useful functions for betting calculations
+Some useful functions for betting calculations. This script calculates Expectancy Goals for each team (and totals) and supremacy.
+Will be adding soon the derived markets. Use at your own lesiure...
 
 
 TODO:
